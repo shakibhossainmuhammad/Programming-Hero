@@ -1,0 +1,48 @@
+.header {
+  height: 200px;
+  background-image: url('../images/images.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-blend-mode: multiply; */
+  background-position: right;
+  color: white;
+}
+
+h3 {
+  color: magenta;
+  text-decoration: overline wavy green;
+}
+
+P {
+  color: blueviolet;
+}
+.page-title {
+  font-weight: 900;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul li {
+  color: purple;
+  display: inline;
+}
+
+span {
+  border: 1px solid purple;
+  height: 200px;
+  width: 100px;
+  margin-top: 50px;
+  display: none;
+}
+
+.blog {
+  background-color: peru;
+  box-shadow: 10px 10px 10px gray;
+  margin-bottom: 100px;
+}
+
+/* Home Work: box-shadow ?? */
