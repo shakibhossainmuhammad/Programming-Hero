@@ -1,3 +1,3 @@
 git add .
-git commit -a -m "CSS(Absolute beginner"
+git commit -a -m "Blog_site_1"
 git push
