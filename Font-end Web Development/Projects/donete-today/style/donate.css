@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Open+Sans&display=swap');
+* {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* banner style */
+.banner {
+  height: 669px;
+  background-image: url(../images/donation9.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.banner-conten {
+  padding: 200px 300px;
+  text-align: center;
+}
+.banner-title {
+  font-weight: 700;
+  font-size: 65px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.banner-desc {
+  font-weight: 400;
+  font-size: 18px;
+  color: #fff;
+  margin-bottom: 30px;
+}
+.btn-primary {
+  background: #ff5959;
+  border-radius: 5px;
+  border: 0;
+  padding: 16px 12px;
+  font-weight: 600;
+  font-size: 20px;
+  color: #fff;
+}
+
+/* donate today */
+.donate-today {
+  padding: 130px 300px;
+  text-align: center;
+}
+
+.donate-title {
+  font-weight: 700;
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+.donate-desc {
+  font-weight: 400;
+  font-size: 18px;
+  color: #707070;
+  margin-bottom: 50px;
+}
+
+ul {
+  display: flex;
+}
+
+ul li {
+  list-style: none;
+  padding: 43px 24px;
+  font-weight: 700;
+  font-size: 30px;
+  color: #707070;
+  background: #ffeeee;
+  background: #fafafa;
+  border-radius: 5px;
+  margin-left: 22px;
+  margin-bottom: 50px;
+}
+
+.thousand-taka {
+  background: #ffeeee;
+  border: 2px solid #ff5959;
+  border-radius: 5px;
+}
+
+.other-amount {
+  font-weight: 400;
+  font-size: 18px;
+  color: #b3b3b3;
+  margin-bottom: 9.5px;
+}
+hr {
+  border: 1px solid #dadada;
+  margin-bottom: 30px;
+}
+
+/* donate plan */
+.donate-plan {
+  padding: 130px 300px;
+  text-align: center;
+}
+
+.donate-title {
+  font-weight: 700;
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+.donate-desc {
+  font-weight: 400;
+  font-size: 18px;
+  color: #707070;
+}
+
+.donate-plan-items {
+  display: flex;
+  align-items: center;
+}
+.food-item,
+.shelter-item,
+.edu-item {
+  background: rgba(79, 157, 166, 0.1);
+  border-radius: 5px;
+  margin-left: 24px;
+  padding: 22px 45px;
+}
+.sub-title {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.food-desc {
+  font-weight: 400;
+  font-size: 16px;
+  color: #707070;
+}
+.shelter-item {
+  background: rgba(255, 89, 89, 0.1);
+}
+.edu-item {
+  background-color: #fff6bd;
+}
+
+/* How to Contribute */
+.contrubute-section {
+  padding: 130px 300px;
+  align-items: center;
+}
+
+.contrubute-items {
+  display: flex;
+  gap: 50px;
+  margin-bottom: 150px;
+}
+
+.contru-title {
+  font-weight: 700;
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+.contru-desc {
+  font-weight: 400;
+  font-size: 18px;
+  color: #707070;
+  margin-bottom: 30px;
+}
+
+.contrubute-items img {
+  width: 30%;
+}
+
+/* get-updates */
+
+.get-updates {
+  padding: 0px 300px;
+  text-align: center;
+}
+
+.updates-title {
+  font-weight: 700;
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+
+.updates-desc {
+  font-weight: 400;
+  font-size: 18px;
+  color: #707070;
+  margin-bottom: 30px;
+}
+
+.input-item {
+  background: #fff4d6;
+  padding: 190px 76px;
+}
+
+.input-item input {
+  background: #d9d9d9;
+  border-radius: 5px 0px 0px 5px;
+  border: 0;
+  outline: none;
+  padding: 14px 10px;
+}
+
+.btn-sub {
+  position: relative;
+  background: #ff5959;
+  border-radius: 0px 5px 5px 0px;
+  padding: 14px 42px;
+  right: 5px;
+}
