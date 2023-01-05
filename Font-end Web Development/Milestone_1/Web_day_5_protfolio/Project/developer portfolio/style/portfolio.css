@@ -10,24 +10,42 @@
   border-radius: 5px;
   background-color: #fd6e0a;
   color: #fff;
+  font-weight: 700;
   font-size: 20px;
   border: 0;
   padding: 18px 35px;
 }
 
+.btn-phone {
+  height: 64px;
+  border: 2px solid #fd6e0a;
+  border-radius: 5px;
+  color: #fd6e0a;
+  font-weight: 700;
+  font-size: 20px;
+  padding: 18px 35px;
+}
+
 .header {
+  width: 1600px;
+  height: 837px;
   background-color: #fff8f3;
   background-image: url(../images/header_bg.png), url(../images/developer.png);
   background-repeat: no-repeat;
   background-position: bottom right, left;
+  background-size: 40%, 5%;
+}
+
+img {
+  margin-top: 214px;
 }
 /* Header and navigation styles */
 nav {
   display: flex;
   justify-content: space-between;
-  margin: 0px 200px;
+  padding: 50px 200px;
 }
-nav-title {
+.nav-title {
   font-weight: 800;
   font-size: 45px;
 }
@@ -52,7 +70,7 @@ nav li {
 }
 
 .banner-sub-title {
-  font-weight: 800;
+  font-weight: 600;
   font-size: 45px;
   margin-bottom: 20px;
 }
