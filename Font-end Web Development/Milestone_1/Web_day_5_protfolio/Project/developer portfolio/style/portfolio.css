@@ -33,7 +33,7 @@
   background-image: url(../images/header_bg.png), url(../images/developer.png);
   background-repeat: no-repeat;
   background-position: bottom right, left;
-  background-size: 40%, 5%;
+  background-size: 50%, 5%;
 }
 
 img {
