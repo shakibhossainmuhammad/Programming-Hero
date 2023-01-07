@@ -1,3 +1,3 @@
 git add .
-git commit -a -m "Web day 4 HTML & CSS"
+git commit -a -m "added new file"
 git push
