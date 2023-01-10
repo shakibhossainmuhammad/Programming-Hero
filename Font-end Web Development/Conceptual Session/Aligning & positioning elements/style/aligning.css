@@ -1,0 +1,29 @@
+/* padding */
+/* div {
+  text-align: center;
+  height: 300px;
+  border: 2px solid;
+  padding: 100px 0;
+} */
+
+/* marggin */
+/* div {
+  width: 400px;
+  border: 2px solid;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+} */
+img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  top: 500px;
+}
+
+span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+}
