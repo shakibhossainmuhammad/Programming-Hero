@@ -1,6 +1,6 @@
 img {
-  height: 100%;
   width: 100%;
+  height: 100%;
   object-fit: cover;
 }
 
@@ -8,21 +8,16 @@ img {
   height: 400px;
   margin-bottom: 5px;
 }
-
 .second-row,
 .third-row {
   display: flex;
   gap: 5px;
 }
 
-.second-row > div {
-  flex: 1;
-}
-
 .second-row-third-container {
   display: flex;
-  gap: 5px;
   flex-direction: column;
+  gap: 5px;
 }
 
 .second-row-third-container div {
