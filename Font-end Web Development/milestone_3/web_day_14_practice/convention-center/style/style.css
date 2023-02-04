@@ -1,0 +1,21 @@
+.banner-img-1 {
+  background-image: url(../images/banner-1.png);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.banner-img-2 {
+  background-image: url(../images/banner-2.png);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.banner-img-3 {
+  background-image: url(../images/banner-3.png);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
