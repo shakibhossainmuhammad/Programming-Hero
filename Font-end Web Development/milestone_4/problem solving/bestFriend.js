@@ -1,3 +1,12 @@
+// const friends = [
+//   'Joy',
+//   'Naim',
+//   'Muhammad Shakib Hossain',
+//   'Akash',
+//   'Abdullah Sayed',
+//   'Ashem',
+//   'Farhan',
+// ];
 // function bestFriend(names) {
 //   bestFriend = names[0];
 //   for (let i = 0; i < names.length; i++) {
@@ -7,25 +16,17 @@
 //   }
 //   return bestFriend;
 // }
-// const friend = [
-//   'John',
-//   'Justin',
-//   'Messi khan pagol men',
-//   'Doe khan',
-//   'Mike',
-//   'Chester',
-//   'Kim',
-// ];
-// console.log(bestFriend(friend));
+// const logestName = bestFriend(friends);
+// console.log(logestName);
 
-const friend = [
-  'John',
-  'Justin',
-  'Messi khan pagol men',
-  'Doe khan',
-  'Mike',
-  'Chester',
-  'Kim',
+const friends = [
+  'Joy',
+  'Naim',
+  'Muhammad Shakib Hossain',
+  'Akash',
+  'Abdullah Sayed',
+  'Ashem',
+  'Farhan',
 ];
 function bestFriend(names) {
   bestFriend = names[0];
@@ -36,5 +37,6 @@ function bestFriend(names) {
   }
   return bestFriend;
 }
-const logestName = bestFriend(friend);
+
+const logestName = bestFriend(friends);
 console.log(logestName);
