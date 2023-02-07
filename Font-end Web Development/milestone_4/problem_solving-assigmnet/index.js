@@ -36,6 +36,7 @@ const result = isLGSeven(15);
 
 // four problem
 // This code is more efficient because it eliminates the need for recursion and the function calls that come with it, and instead uses a simple for loop to iterate through the array. This should result in faster execution and less memory usage.
+const numbers = [-18, 10, 23, 44, -80, -15, -21, -16, -20];
 function findingBadData(numbers) {
   let neg_count = 0;
   for (let i = 0; i < numbers.length; i++) {
@@ -46,7 +47,6 @@ function findingBadData(numbers) {
   return neg_count;
 }
 
-const numbers = [-18, 10, 23, 44, -80, -15, -21, -16, -20];
 const counts = findingBadData(numbers);
 
 // five problem
