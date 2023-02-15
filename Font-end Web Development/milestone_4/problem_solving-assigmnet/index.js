@@ -6,10 +6,9 @@ function mindGame(number) {
   const sub = divide - 5;
   return sub;
 }
-const resultMind = mindGame(10);
-
+const resultMind = mindGame(50);
 // second problem
-const names = ['Phero'];
+const names = ['Batch7'];
 function evenOdd(names) {
   let countName = '';
   for (let i = 0; i < names.length; i++) {
@@ -32,11 +31,10 @@ function isLGSeven(inputValue) {
     return valueSeven;
   }
 }
-const result = isLGSeven(15);
+const result = isLGSeven(6);
 
 // four problem
-// This code is more efficient because it eliminates the need for recursion and the function calls that come with it, and instead uses a simple for loop to iterate through the array. This should result in faster execution and less memory usage.
-const numbers = [-18, 10, 23, 44, -80, -15, -21, -16, -20];
+const numbers = [2, -5, -7, -13];
 function findingBadData(numbers) {
   let neg_count = 0;
   for (let i = 0; i < numbers.length; i++) {
@@ -51,20 +49,20 @@ const counts = findingBadData(numbers);
 
 // five problem
 function gemsToDiamond(firstFriend, secondFriend, thirdFriend) {
-  const firstFriendGem = 50;
-  const secondFriendGem = 20;
-  const thirdFriendGem = 15;
+  const firstFriendGem = 21;
+  const secondFriendGem = 32;
+  const thirdFriendGem = 43;
 
   const firstGemTotal = firstFriend * firstFriendGem;
   const secondGemTotal = secondFriend * secondFriendGem;
   const thirdGemTotal = thirdFriend * thirdFriendGem;
 
   const totalGem = firstGemTotal + secondGemTotal + thirdGemTotal;
-  if (totalGem >= 1000 * 2) {
+  if (totalGem >= 1000) {
     return totalGem - 2000;
   } else {
     return totalGem;
   }
 }
 
-const totalGemResult = gemsToDiamond(21, 32, 43);
+const totalGemResult = gemsToDiamond(1, 1, 1);
