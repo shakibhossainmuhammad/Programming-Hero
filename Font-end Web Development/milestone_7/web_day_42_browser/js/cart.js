@@ -20,10 +20,10 @@ const displayProduct = (product, quantity) => {
 const getStoredShoppingCart = () => {
   let cart = {};
   const storedCart = localStorage.getItem('cart');
-  console.log(storedCart);
-  // if (storedCart) {
-  //   cart = JSON.parse(storedCart);
-  // }
+  // console.log(storedCart);
+  if (storedCart) {
+    cart = JSON.parse(storedCart);
+  }
   return cart;
 };
 
